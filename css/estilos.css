@@ -261,8 +261,13 @@ legend {
         .navigation ul li a {
             display: block;
             padding: 0.5rem 0.6rem;
-            
+            border-radius: .3em;
+            transition: all .5s linear;
         }
+            .navigation ul li a:hover {
+                background: #ffe1ca;
+                font-size: 1.3em;
+            }
             
 
 
