@@ -194,7 +194,7 @@ header {
 
 legend {
     padding: 0 1rem;
-    color: #dd7132;
+    color: #702900;
     font-size: 1.2em;
    
 }
@@ -261,8 +261,13 @@ legend {
         .navigation ul li a {
             display: block;
             padding: 0.5rem 0.6rem;
-            
+            border-radius: .3em;
+            transition: all .5s linear;
         }
+            .navigation ul li a:hover {
+                background: #ffd6b6;
+                font-size: 1.3em;
+            }
             
 
 
