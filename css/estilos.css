@@ -194,7 +194,7 @@ header {
 
 legend {
     padding: 0 1rem;
-    color: #dd7132;
+    color: #702900;
     font-size: 1.2em;
    
 }
@@ -265,7 +265,7 @@ legend {
             transition: all .5s linear;
         }
             .navigation ul li a:hover {
-                background: #ffe1ca;
+                background: #ffd6b6;
                 font-size: 1.3em;
             }
             
