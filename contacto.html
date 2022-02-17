@@ -34,17 +34,34 @@
         </header>    
         
         <section id="info" class="container">    
-            <div class="div-form">
-                <form class="form">
-                    <fieldset class="form-fieldset">
-                        <legend class="form-fieldset-legend">CONTACTO</legend>
-                        <input type="text" placeholder="Nombre" class="input-text"> 
-                        <input type="text" placeholder="Email" class="input-text">                    
-                        <textarea name placeholder="Consulta..." id="" cols="30" rows="10" class="textarea-consulta"></textarea>                   
-                        <input type="submit" value="Enviar" class="input-submit">
-                    </fieldset>
-                </form>
-            </div>     
+
+            <section class="d-flex justify-content-center">    
+                <div class="card col-sm-8 p-3 bg-secondary">
+                   <div class="mb-3">
+                       <h4>CONTACTO</h4>
+                   </div>
+                   <div class="mb-2">
+                       <form action="">
+                           <div class="mb-2">
+                                <label for="Nombre">Nombre</label>
+                                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Damián">
+                            </div>
+                            <div class="mb-2">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" name="email" id="email" placeholder="damian@gmail.com">
+                            </div>
+                            <div class="mb-2">
+                                <label for="consulta">Consulta</label>
+                                <textarea type="text" class="form-control pb-5" name="consulta" id="consulta" placeholder="Escribir la consulta"></textarea>                      
+                            </div>
+                            <div class="mb-2 text-align-center">
+                                <button class="btn btn-dark">Enviar</button>
+                            </div>
+                       </form>
+                   </div>
+                </div>     
+            </section>
+               
         </section>
         
         <footer class="footer">
