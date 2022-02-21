@@ -17,37 +17,56 @@
 
     <div id="grilla2" class="container">
         <header class="header">
-            <div class="container logo-nav-container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
 
-                <a href="index.html">
-                    <img src="Fotos/Logo.jpg" width="160" height="160" alt="Logo">
-                </a>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="Fotos/Logo.jpg" width="150" alt="">
+                    </a>
 
-                <nav class="navigation">
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="galeria.html">Galeria</a></li>
-                        <li><a href="ubicacion.html">Ubicación</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ubicacion.html">Ubicación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <section id="info" class="container">
 
-            <div class="card">
+            <div class="card" id="ubicacion">
                 <div class="card-body">
-                    <h5 class="card-title">Nuestra ubicacion</h5>
-                      <p class="card-text">Miller 2660 - Villa Urquiza - Buenos Aires - Argentina</p>
+                    <h5 class="card-title fs-3">Nuestra ubicacion</h5>
+                    <p class="card-text">Miller 2660 - Villa Urquiza - Buenos Aires - Argentina</p>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.360131944656!2d-58.484569784266164!3d-34.5697530632098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6611ac8ce4f%3A0x2d15c2f62da6b092!2sMiller%202660%2C%20C1431%20CABA!5e0!3m2!1sen!2sar!4v1642276083506!5m2!1sen!2sar"
-                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.360131944656!2d-58.484569784266164!3d-34.5697530632098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6611ac8ce4f%3A0x2d15c2f62da6b092!2sMiller%202660%2C%20C1431%20CABA!5e0!3m2!1sen!2sar!4v1642276083506!5m2!1sen!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy" height="400"></iframe>
             </div>
         </section>
 
-        
+
         <footer class="footer">
             <div>
                 <h4>Seguinos en:</h4>
