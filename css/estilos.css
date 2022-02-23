@@ -249,11 +249,6 @@ th, td {
         border: orangered solid 1px;    
 }
 
-table {
-    margin: 5em 2em;
-    text-align: center;
-}
-
 
 @media screen and (max-width: 320px) {
     
@@ -313,37 +308,9 @@ table {
         height: 17em;  
     }
 
-    legend {
-        margin: 0;
-        padding: 0 0 1em 0;
-    }
-
     .form {
         width: 100%;
     }
-
-    .form-fieldset {
-        width: 100%;
-        max-width: 100%;
-        padding: .8em;
-    }
-        
-    .textarea-consulta {
-        width: 100%;
-        height: 10em;
-    }
-
-    .input-text {
-        width: 100%;
-    }
-
-    .input-submit {
-    background-color: #ff9253;
-    color: #ffebdc;
-    border: none;
-    width: 100%;
-    border-radius: .4em;
-}
 
     table {
         margin: 3em auto auto auto;
