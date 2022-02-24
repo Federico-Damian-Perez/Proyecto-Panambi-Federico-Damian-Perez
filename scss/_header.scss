@@ -1,0 +1,44 @@
+$colornegro: rgb(34, 34, 34);
+$colornaranja1: rgb(255, 165, 106);
+$colornaranja2: rgb(255, 119, 29);
+
+.header {
+    z-index: 2;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    .navbar {
+        background-color: $colornegro;
+        .container-fluid {
+            .navbar-brand {
+                transition: all 1s ease;
+                &:hover {
+                    opacity: .7;
+                }
+            }
+            .navbar-toggler {
+                color: $colornaranja1;
+            }
+            .collapse {
+                ul {
+                    li {
+                        a { 
+                            font-size: 1.2em;
+                            border-radius: .3em;
+                            transition: all .8s ease;
+                            &:hover {
+                                border-radius: .3em;
+                                background-color: $colornaranja1;
+                            }
+                            &:active {
+                                background-color: $colornaranja2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
