@@ -158,41 +158,6 @@ p {
     background-color: #fd8743;
 }
 
-.footer {
-    margin: 2em 0;
-    text-align: center;
-    border-width: 2px;
-    border-top: solid 2px black;
-}
-    .footer h4 {
-        padding: .5em;
-    }
-    
-    .footer a {
-        list-style: none;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-    }
-
-    .footer a img:hover {
-        opacity: .8;
-    }
-
-    .footer ul {
-        list-style: none;
-        padding: 0;
-    }  
-    
-    footer ul li {
-        display: inline-block;
-        padding: .3em;
-    }
-
-    .footer ul li a {
-        text-decoration: none;
-        color: rgb(0, 0, 0);            
-    }
-
 @media screen and (max-width: 320px) {
     
     .container {
