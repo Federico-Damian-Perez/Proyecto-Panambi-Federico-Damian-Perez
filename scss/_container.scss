@@ -1,8 +1,3 @@
-$colornegro: rgb(34, 34, 34);
-$colornaranja1: rgb(255, 165, 106);
-$colornaranja2: rgb(255, 119, 29);
-
-
 .container {
     .row {
         .col {
@@ -13,14 +8,6 @@ $colornaranja2: rgb(255, 119, 29);
                 border-radius: 5px;
                 box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
 
-                .card-body {
-                    .card-title {
-                        color: $colornaranja1;
-                    }
-                    .card-text {
-                        color: white;
-                    }
-                }
                 img {
                     width: 100%;
                     height: 100%;
