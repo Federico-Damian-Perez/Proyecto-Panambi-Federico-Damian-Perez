@@ -1,3 +1,19 @@
+a {
+  font-size: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+  a {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  a {
+    font-size: 1.2em;
+  }
+}
+
 .header {
   z-index: 2;
   padding: 0;
@@ -25,7 +41,6 @@
 }
 
 .header .navbar .container-fluid .collapse ul li a {
-  font-size: 1.2em;
   border-radius: .3em;
   -webkit-transition: all .8s ease;
   transition: all .8s ease;
@@ -34,6 +49,7 @@
 .header .navbar .container-fluid .collapse ul li a:hover {
   border-radius: .3em;
   background-color: #ffa56a;
+  color: white;
 }
 
 .header .navbar .container-fluid .collapse ul li a:active {
@@ -48,14 +64,6 @@
   border-radius: 5px;
   -webkit-box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.5);
-}
-
-.container .row .col .card .card-body .card-title {
-  color: #ffa56a;
-}
-
-.container .row .col .card .card-body .card-text {
-  color: white;
 }
 
 .container .row .col .card img {
@@ -105,6 +113,21 @@
 .footer a {
   list-style: none;
   text-decoration: none;
-  color: black;
+}
+
+.color1 {
+  color: #222222;
+}
+
+.color2 {
+  color: #ffa56a;
+}
+
+.color3 {
+  color: #ff771d;
+}
+
+.color4 {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
